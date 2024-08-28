@@ -1,0 +1,16 @@
+#+title: Notes 01
+
+* 1.2
+** db processing & dev
+#+begin_src sql
+SQL> select 3*4 from dual; /* 12 */
+#+end_src
+
+** some linux commands
+#+begin_src shell
+ssh d1313@nrs-projcts-ssh.huboldt.edu
+sqlplus /
+#+end_src
+** Qs
++ SQL use semicolon SQLPlus does not
++ SQLPlus host command: open new shell, run shell commands
