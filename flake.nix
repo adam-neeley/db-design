@@ -18,8 +18,9 @@
           packages = with pkgs; [
             eza
             sshfs
-            (writeShellScriptBin "run-sql" ''
-              echo "TODO"
+            (writeShellScriptBin "connect-humboldt.edu" ''
+              echo "Connecting ${serverName}"
+              ssh atn22@nrs-projects-ssh.humboldt.edu -i /home/adam/.ssh/adam@iron
             '')
             (writeShellScriptBin "unmount-humboldt.edu" ''
               echo "Unmounting ${serverName}..."
