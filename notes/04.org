@@ -5,6 +5,8 @@ advisor = (advisor_id, advisor_lname, advisor_fname, advisor_phone)
 course_stats = (std_id, class_id, class_grade, completion_date)
 ** minimal key / candidate key
 smallest possible superkey
-** primary key must determine remaining attributes
+** primary key
+only one
+must determine remaining attributes
 ** foreign key
 specify candidate key
