@@ -1,7 +1,6 @@
-#+title: Notes 02
+#+title: week 2
 
-* 2.1
-** db design
+* db design
 + what tables to create
 + how interrelated
 + columns

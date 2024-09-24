@@ -1,4 +1,4 @@
-#+title: Notes 04
+#+title: week 4
 * relational
 ** superkey / logical key
 advisor = (advisor_id, advisor_lname, advisor_fname, advisor_phone)
