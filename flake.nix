@@ -15,7 +15,7 @@
     in {
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
-          packages = with pkgs; [
+          buildInputs = with pkgs; [
             eza
             sshfs
             (writeShellScriptBin "connect-humboldt.edu" ''
