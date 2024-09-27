@@ -1,0 +1,72 @@
+Adam Neeley
+Courtney Rowe
+lab query 1
+
+EMPL_LAST_NAME                                                                  
+---------------                                                                 
+King                                                                            
+
+lab query 2
+
+EMPL_LAST_NAME  HIREDATE                                                        
+--------------- ---------                                                       
+Michaels        20-FEB-18                                                       
+Ward            22-FEB-19                                                       
+Martin          28-SEP-18                                                       
+Turner          08-SEP-19                                                       
+
+lab query 3
+
+DEPT_NAME           SALARY                                                      
+--------------- ----------                                                      
+Research              2975                                                      
+Sales                 2850                                                      
+Accounting            2450                                                      
+
+lab query 4
+
+JOB_TITLE  MGR                                                                  
+---------- ----                                                                 
+Sales      7698                                                                 
+President                                                                       
+Analyst    7566                                                                 
+Clerk      7788                                                                 
+Clerk      7782                                                                 
+Clerk      7902                                                                 
+Clerk      7698                                                                 
+Manager    7839                                                                 
+
+8 rows selected.
+
+lab query 5
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+100 Accounting      New York                                                    
+200 Research        Dallas                                                      
+400 Operations      Boston                                                      
+500 Management      New York                                                    
+
+lab query 6
+
+EMPL_LAST_NAME  JOB_TITLE      SALARY                                           
+--------------- ---------- ----------                                           
+King            President        5000                                           
+Smith           Clerk             800                                           
+James           Clerk             950                                           
+
+lab query 7
+
+EMPL EMPL_LAST_NAME  JOB_TITLE  MGR  HIREDATE      SALARY COMMISSION DEP        
+---- --------------- ---------- ---- --------- ---------- ---------- ---        
+7654 Martin          Sales      7698 28-SEP-18       1250       1400 300        
+7876 Adams           Clerk      7788 23-SEP-18       1100            400        
+
+lab query 8
+
+EMPL EMPL_LAST_NAME  JOB_TITLE  MGR  HIREDATE      SALARY COMMISSION DEP        
+---- --------------- ---------- ---- --------- ---------- ---------- ---        
+7499 Michaels        Sales      7698 20-FEB-18       1600        300 300        
+7654 Martin          Sales      7698 28-SEP-18       1250       1400 300        
+7934 Miller          Clerk      7782 23-JAN-16       1300            100        
+
