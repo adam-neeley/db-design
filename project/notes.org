@@ -44,28 +44,29 @@
 
 #+end_src
 
-* db
+* database design
 ** actions
 ** entities
-*** customer
-| id | name | email | phone | points |
-|----+------+-------+-------+--------|
-|    |      |       |       |        |
-|    |      |       |       |        |
-*** order
-| id | date | customer_id |
-|----+------+-------------|
-|    |      |             |
-*** product
-| id | name | type | foreign_id | price |
-|----+------+------+------------+-------|
-|    |      |      |            |       |
-**** comic
-| id | title | author | genre | price |
-|----+-------+--------+-------+-------|
-|    |       |        |       |       |
-|    |       |        |       |       |
-*** transaction
-| id | order_id | product_id | quantity | total_amount |
-|----+----------+------------+----------+--------------|
-|    |          |            |          |              |
+*** customers
+| id | name | email            |        phone | points |
+|----+------+------------------+--------------+--------|
+|  1 | bob  | bob@earth.com    |          911 |      5 |
+|  2 | jill | jill@jupiter.org | 123-456-7890 |    250 |
+*** products
+| id |   |   |   |   |
+|    |   |   |   |   |
+*** product_drinks
+| product_id | name     | size   | description        | calories | price |
+|------------+----------+--------+--------------------+----------+-------|
+|          1 | latte    | medium | <description here> |      100 | $3.00 |
+|          2 | espresso | small  |                    |       50 | $1.25 |
+*** product_comics
+| product_id | title | author | genre | price |
+|------------+-------+--------+-------+-------|
+|            |       |        |       |       |
+|            |       |        |       |       |
+*** orders
+| id |       date | customer_id |
+|----+------------+-------------|
+|  1 | 2024-09-07 |           1 |
+*** orders_products
