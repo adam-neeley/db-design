@@ -7,6 +7,6 @@ list out rows & cols
 | id  | lname | phone    | advisor |
 | --- | ----- | -------- | ------- |
 | 123 | abc   | 12931923 | xyz     |
-
-*** TODO relation
-*** TODO other way
+*** relation
+employees(EMPL_ID, empl_name, empl_addr, empl_salary)
+*** TODO other way ?
