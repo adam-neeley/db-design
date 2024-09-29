@@ -4,3 +4,9 @@
 tmp/
 .direnv
 .pass
+.auctex-auto/
+_region_.tex
+*.aux
+*latexmk
+*.synctex.gz
+*.fls
