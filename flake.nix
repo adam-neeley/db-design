@@ -16,6 +16,7 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           buildInputs = with pkgs; [
+            plantuml
             eza
             sshfs
             (writeShellScriptBin "connect-humboldt.edu" ''

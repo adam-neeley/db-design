@@ -1,0 +1,26 @@
+@startchen
+entity member {
+}
+entity email {
+}
+entity seminar {
+}
+
+relationship has_email {
+}
+relationship attends {
+}
+relationship in_charge_of {
+}
+
+member -1- has_email
+has_email -N- email
+
+member -M- attends
+attends -N- seminar
+
+member -1- in_charge_of
+in_charge_of -N- seminar
+
+@endchen
+

@@ -1,0 +1,62 @@
+#+title: Entity Relation
+* entity
+** member
+*** unique membership number
+*** last name
+*** all of their significant e-mail addresses.
+*** The date the new member joined
+** email
+*** address
+** seminar
+*** title
+*** unique number
+*** date
+*** time begin
+*** time end
+** park_spot
+*** id
+*** garage
+*** section
+*** space
+* relation
+** member has emails
+** member attends seminars
+** seminar belongs_to member
+** park_spot belongs_to member
+* rule
+** seminar must have a member attend
+* hi
+
+================================================================================
+
+members
+=======
+MBR_ID              unique, primary key, not null
+MBR_JOINED  date    not null
+MBR_LNAME           not null
+
+emails
+======
+EML_ADDRESS
+MBR_ID
+
+seminars
+========
+SMR_ID
+SMR_TITLE
+SMR_DATE
+SMR_START_TIME
+SMR_END_TIME
+SMR_INCHARGE_MBR
+
+attendence
+==========
+MBR_ID
+SMR_ID
+
+parking
+=======
+PRK_ID
+PRK_GARAGE_NAME
+PRK_GARAGE_SECTION
+PRK_GARAGE_NUMBER
