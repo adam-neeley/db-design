@@ -26,11 +26,7 @@ entity "parking" as parking {
  * garage: varchar2(64)
  * section: varchar2(64)
  * space: varchar2(64)
+ member_id: number
 }
-
-/'
- ' member }|-- email
- ' member }o-- seminar
- '/
 
 @enduml
