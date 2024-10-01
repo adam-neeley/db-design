@@ -1,0 +1,31 @@
+ADAM NEELEY
+CS 325 - Homework 4 - Problem 1
+Sep 28 2024
+
+Question 1
+
+    Speaker
+    Meeting
+    Member
+    Minutes
+
+Question 2
+
+    speaks_at
+    leads
+    attends
+    record
+    takes
+
+Question 3
+
+    record
+
+Question 4
+
+    MIN_URL
+    Min_type
+
+Question 5
+
+    MTG_DATE
