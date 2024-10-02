@@ -1,6 +1,0 @@
-#+title: week 2
-
-* db design
-+ what tables to create
-+ how interrelated
-+ columns

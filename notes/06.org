@@ -1,3 +1,0 @@
-#+title: week 6
-* sql
-** column alias: ""

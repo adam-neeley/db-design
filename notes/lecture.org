@@ -1,0 +1,99 @@
+#+title: Lecture Notes
+#+description: Weeks 1-6
+* dbms
+** db processing & dev
+#+begin_src sql
+SQL> select 3*4 from dual; /* 12 */
+#+end_src
+** sqlplus
++ SQL use semicolon SQLPlus does not
++ SQLPlus host command: open new shell, run shell commands
+* db design
++ what tables to create
++ how interrelated
++ columns
+* forms
+** tabular
+list out rows & cols
+| id  | lname | phone    | advisor |
+| --- | ----- | -------- | ------- |
+| 123 | abc   | 12931923 | xyz     |
+** relation
+employees(EMPL_ID, empl_name, empl_addr, empl_salary)
+** sql
+* relational
+** [#B] superkey / logical key
+advisor = (advisor_id, advisor_lname, advisor_fname, advisor_phone)
+course_stats = (std_id, class_id, class_grade, completion_date)
+** [#B] minimal key / candidate key
+smallest possible superkey
+** [#B] primary key
+only one
+must determine remaining attributes
+** [#B] foreign key
+specify candidate key
+* sql
+** syntax
++ not case sensitive
++ < description >
++ [ optional parts ]
+*** use parentheses with multiple ANDs and ORs
+** where
+*** date
+#+begin_src sql
+select * from empl
+        where hiredate between to_date('2012-03-12', 'YYYY-MM-DD')
+                       and     to_date('2012-03-12', 'YYYY-MM-DD');
+
+select * from empl
+       where extract(year from hiredate) = 2012;
+
+#+end_src
+*** like
+#+begin_src sql
+
+select * from empl where empl_last_name like 'M%'; -- last name starts with M
+select * from empl where job_title like '_anager';
+select * from empl where empl_last_name like '_ar%';
+#+end_src
+** comparison
+*** `is null` not `= null`
+*** `is not null` not `!= null`
+*** `<>` <=> `!=`
+** semantics
+*** cartesian product
+1. take cartesian product using `FROM < table1 >, < table2 >` clause
+2. take relation of rows using `WHERE <boolean expr> = TRUE` clause
+3. take projection in the `SELECT < column1, column2 >` clause
+* relation
+** projection
+** [#B] equi-join
+** [#B] natural join
+how different from equi-join?
+** cartesian product
+* entity relation model
+** entity
++ not equivalent to table
+*** weak entity
+one who is really dependent on another entity
+** entity relation diagram
+| symbol | meaning     |
+|--------+-------------|
+| d      | disjoint    |
+| U      | union       |
+| o      | overlapping |
+| +      | subtype     |
+| oval   | no subtypes |
+** cardinalities
++ 1:1
++ 1:N
++ M:N
+*** minimum
++ 0
++ 1
+* column alias: ""
+* TODO subquery
+#+begin_src sql
+select empl_last_name ename
+       from empl e
+#+end_src
