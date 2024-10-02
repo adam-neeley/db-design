@@ -1,4 +1,28 @@
 #+title: db project notes
+* model
+** Entity Classes:
+   - User (superclass)
+   - Customer (subclass of User)
+   - Staff (subclass of User)
+   - Manga
+   - CafeItem
+   - Membership
+   - Transaction
+   - Recommendation
+   - Credit
+   - Deal
+** Relationship Classes:
+   - Rent (1:N between Customer and Manga)
+   - Purchase (1:N between Customer and CafeItem)
+   - MembershipTransaction (M:N between User and Membership)
+   - Recommends (M:N between User and Recommendation)
+   - ReferralCredit (1:N between User and Credit)
+   - MembershipDeal (M:N between Membership and Deal)
+   - Contains (M:N between Transaction and CafeItem)
+   - Includes (M:N between Deal and CafeItem)
+** Multi-valued attributes:
+   - Tags (multi-valued attribute in Manga entity class)
+   - Specialties (multi-valued attribute in CafeItem entity class)
 * ascii art
 #+begin_src
     (  )   (   )  )
