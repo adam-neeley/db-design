@@ -1,4 +1,4 @@
 all:
-	plantuml .
+	plantuml *.puml
 clean:
 	rm *.png

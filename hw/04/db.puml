@@ -29,4 +29,14 @@ entity "parking" as parking {
  member_id: number
 }
 
+member ||-- parking: reserved_for
+member ||--o{ email: has_email
+member ||--o{ seminar: in_charge_of
+member ||--o{ seminar: attends
+
+/'
+ ' order }o--|| product
+ ' client }o..|| country
+ '/
+
 @enduml
