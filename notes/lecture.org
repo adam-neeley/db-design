@@ -65,6 +65,7 @@ select * from empl where empl_last_name like '_ar%';
 1. take cartesian product using `FROM < table1 >, < table2 >` clause
 2. take relation of rows using `WHERE <boolean expr> = TRUE` clause
 3. take projection in the `SELECT < column1, column2 >` clause
+** TODO drop table cascade
 * relation
 ** projection
 ** [#B] equi-join
