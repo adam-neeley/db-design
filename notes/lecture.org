@@ -66,6 +66,9 @@ select * from empl where empl_last_name like '_ar%';
 2. take relation of rows using `WHERE <boolean expr> = TRUE` clause
 3. take projection in the `SELECT < column1, column2 >` clause
 ** TODO drop table cascade
+:PROPERTIES:
+:ID:       dc13de48-1edf-4453-a81a-be0c523ec535
+:END:
 * relation
 ** projection
 ** [#B] equi-join
@@ -94,6 +97,9 @@ one who is really dependent on another entity
 + 1
 * column alias: ""
 * TODO subquery
+:PROPERTIES:
+:ID:       3cef9a1b-42df-463a-97eb-d5c0a04a5c92
+:END:
 #+begin_src sql
 select empl_last_name ename
        from empl e
