@@ -1,4 +1,5 @@
 #+title: Lecture Notes
+#+startup: overview
 #+description: Weeks 1-6
 * dbms
 ** db processing & dev
@@ -104,3 +105,5 @@ one who is really dependent on another entity
 select empl_last_name ename
        from empl e
 #+end_src
+* injection :week_7:
+** UNION
