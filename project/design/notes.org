@@ -1,0 +1,15 @@
+#+title: design
+* me
+** relations
+*** transaction
+*** applies
+*** process
+*** makes
+*** updates
+*** promotion
+** sql
+*** for above
+** set up server by friday
+** have done by saturday
+** finish over email by sunday
+** turn in monday

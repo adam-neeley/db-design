@@ -1,0 +1,52 @@
+@startchen
+
+entity User {
+}
+entity Customer {
+}
+entity Staff {
+}
+entity Product{
+
+entity Manga {
+}
+entity CafeItem {
+}
+}
+entity Membership {
+}
+entity Transaction {
+}
+entity Credit {
+}
+entity Deal {
+}
+
+relationship rents {
+}
+relationship purchases {
+}
+relationship gets_membership {
+}
+relationship recommends {
+}
+relationship refers {
+}
+relationship gets_deal {
+}
+relationship recommends {
+}
+
+#Customer -1- rents
+#rents -N- Manga
+#
+#Customer -1- purchases
+#purchases -N- Product
+#
+#User -1- rents
+#rents -N- Manga
+#
+#Customer -M- gets_membership
+#gets_membership -N- Membership
+
+@endchen

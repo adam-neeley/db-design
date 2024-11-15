@@ -1,0 +1,42 @@
+@startuml
+entity "member" as member {
+ * ID: number
+ --
+ * first_name: varchar2(128)
+ * last_name: varchar2(128)
+ * date_joined: date
+}
+
+entity "email" as email {
+ * MEMBER_ID: number
+ * ADDRESS: varchar2(128)
+}
+
+entity "seminar" as seminar {
+ * ID: number
+ --
+ * title: varchar2(128)
+ * start_time: date
+ * end_time: date
+}
+
+entity "parking" as parking {
+ * ID: number
+ --
+ * garage: varchar2(64)
+ * section: varchar2(64)
+ * space: varchar2(64)
+ member_id: number
+}
+
+member ||-- parking: reserved_for
+member ||--o{ email: has_email
+member ||--o{ seminar: in_charge_of
+member ||--o{ seminar: attends
+
+/'
+ ' order }o--|| product
+ ' client }o..|| country
+ '/
+
+@enduml
