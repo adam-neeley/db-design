@@ -1,0 +1,42 @@
+#+title: Exam 1 Study group
+* members
++ Juliana
++ Diego
++ Adam
+* objective
++ review study guide
++ review homework
++ review labs
++ create note sheet
+  - include name
+  - handwritten
+* description
+what we covered:
+** topics
+*** DBMS
+*** 3 forms
+**** tabular
+**** relation
+**** sql
+*** keys
+**** superkey/logical
+**** minimal/candidate
+**** primary
+**** foreign
+*** sqlplus
+**** syntax
+***** like
+***** alias
+***** subselect
+***** computed columns
+***** aggregate functions
+***** in
+*** join
+**** cartesian product
+**** projection
+**** equijoin
+**** natural join
+*** entity relation model
+**** super/sub types
+**** diagram
+* picture
