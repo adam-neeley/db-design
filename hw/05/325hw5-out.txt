@@ -1,0 +1,157 @@
+Homework 5
+Adam Neeley
+Problem 1
+
+CLIENT_LNAME    IF_BUMPED_UP                                                    
+--------------- ------------                                                    
+Beta                     1.7                                                    
+Carlos                   4.3                                                    
+Delta                    3.9                                                    
+Epsilon                  2.6                                                    
+Feta                      .5                                                    
+Greta                    4.9                                                    
+Harpo                    3.8                                                    
+
+7 rows selected.
+
+Problem 2
+
+RENTAL_ DATE_DUE  IF_GRACE                                                      
+------- --------- ---------                                                     
+0000002 22-SEP-19 27-SEP-19                                                     
+0000004 22-SEP-19 27-SEP-19                                                     
+0000005 11-AUG-19 16-AUG-19                                                     
+0000011 10-SEP-19 15-SEP-19                                                     
+0000017 25-SEP-19 30-SEP-19                                                     
+0000018 26-SEP-19 01-OCT-19                                                     
+0000021 17-SEP-19 22-SEP-19                                                     
+
+7 rows selected.
+
+Problem 3
+
+VID_ID VID_FOR   IF_DISCT                                                       
+------ ------- ----------                                                       
+130012 DVD           .998                                                       
+130022 DVD          1.198                                                       
+130031 DVD           .998                                                       
+130061 DVD           .398                                                       
+210011 HD-DVD        .198                                                       
+230012 DVD           .798                                                       
+330012 DVD           .798                                                       
+330023 DVD           .998                                                       
+330033 DVD          1.198                                                       
+330034 DVD          1.198                                                       
+210031 HD-DVD        .198                                                       
+
+VID_ID VID_FOR   IF_DISCT                                                       
+------ ------- ----------                                                       
+230033 DVD           .798                                                       
+210041 HD-DVD        .258                                                       
+230043 DVD           .798                                                       
+230052 DVD           .798                                                       
+230064 DVD          1.198                                                       
+410041 HD-DVD        .258                                                       
+230073 DVD          1.198                                                       
+230074 DVD          1.198                                                       
+
+19 rows selected.
+
+Problem 4
+
+MOVIE_TITLE                              CAT CATEGORY_N                         
+---------------------------------------- --- ----------                         
+Gone with the Wind                       400 Classic                            
+It's a Wonderful Life                    400 Classic                            
+The Muppet Movie                         500 Family                             
+Indiana Jones and the Temple of Doom     200 Action                             
+Indiana Jones and the Last Crusade       200 Action                             
+Babe                                     500 Family                             
+Toy Story                                500 Family                             
+Toy Story 2                              500 Family                             
+Star Wars                                200 Action                             
+The Empire Strikes Back                  200 Action                             
+Return of the Jedi                       200 Action                             
+
+MOVIE_TITLE                              CAT CATEGORY_N                         
+---------------------------------------- --- ----------                         
+The Phantom Menace                       200 Action                             
+One Flew Over the Cuckoo's Nest          300 Drama                              
+Midnight Cowboy                          300 Drama                              
+Clockwork Orange                         300 Drama                              
+All About Eve                            400 Classic                            
+The Philadelphia Story                   400 Classic                            
+Fatal Attraction                         300 Drama                              
+The Matrix                               200 Action                             
+The Blues Brothers                       100 Comedy                             
+
+20 rows selected.
+
+Problem 5
+
+OLDEST    NEWEST                                                                
+--------- ---------                                                             
+05-APR-08 05-MAY-12                                                             
+
+Problem 6
+
+Total videos Avg Rental                                                         
+------------ ----------                                                         
+          42 3.15190476                                                         
+
+Problem 7
+
+ # Rentals Total Rental $                                                       
+---------- --------------                                                       
+        23          76.47                                                       
+
+Problem 8
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+120011 Blu-Ray                                                                  
+120021 Blu-Ray                                                                  
+130061 DVD                                                                      
+210011 HD-DVD                                                                   
+220013 Blu-Ray                                                                  
+220021 Blu-Ray                                                                  
+320011 Blu-Ray                                                                  
+320021 Blu-Ray                                                                  
+320022 Blu-Ray                                                                  
+320031 Blu-Ray                                                                  
+320032 Blu-Ray                                                                  
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+210031 HD-DVD                                                                   
+220032 Blu-Ray                                                                  
+210041 HD-DVD                                                                   
+220042 Blu-Ray                                                                  
+220051 Blu-Ray                                                                  
+220061 Blu-Ray                                                                  
+220062 Blu-Ray                                                                  
+220063 Blu-Ray                                                                  
+420011 Blu-Ray                                                                  
+420021 Blu-Ray                                                                  
+420031 Blu-Ray                                                                  
+
+VID_ID VID_FOR                                                                  
+------ -------                                                                  
+120041 Blu-Ray                                                                  
+120051 Blu-Ray                                                                  
+410041 HD-DVD                                                                   
+420042 Blu-Ray                                                                  
+220071 Blu-Ray                                                                  
+220072 Blu-Ray                                                                  
+
+28 rows selected.
+
+Problem 9
+
+CLIENT_FNAME    CLIENT_LNAME                                                    
+--------------- ---------------                                                 
+Bob             Beta                                                            
+Ann             Carlos                                                          
+Emma            Epsilon                                                         
+
+Problem 10

@@ -1,0 +1,4 @@
+Member(MEM_NUM, last_name, date_joined)
+Email(EMAIL, mem_num)
+Seminar(SEM_NUM, title, sem_date, time_begin, time_end)
+ParkingSpace(PARK_ID_NUM, garage_name, section_num, space_num)
